@@ -1,4 +1,9 @@
 {
+    "name": "citations-examen",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "gulp build"
+    },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.5",

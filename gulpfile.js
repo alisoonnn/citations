@@ -83,3 +83,13 @@ exports.default = gulp.series(
     copyWebManifest,
     watchFiles,
   );
+
+// Tâche de build
+exports.build = gulp.series(
+    cleanDist,
+    compileSass,
+    replaceText,
+    images,
+    minifyJS,
+    copyWebManifest
+  );
