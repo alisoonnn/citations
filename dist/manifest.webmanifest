@@ -1,0 +1,13 @@
+{
+  "name": "examen nt",
+  "short_name": "examen nt",
+  "start_url": "index.html",  
+  "display": "standalone",
+  "theme_color": "#1E1E24",
+  "background_color": "#1E1E24",
+  "related_applications": [
+    {
+      "platform": "web"
+    }
+  ]
+}

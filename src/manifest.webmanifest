@@ -1,0 +1,30 @@
+{
+  "name": "examen nt",
+  "short_name": "examen nt",
+  "start_url": "index.html",  
+  "display": "standalone",
+  "theme_color": "#1E1E24",
+  "background_color": "#1E1E24",
+  "related_applications": [
+    {
+      "platform": "web"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}
