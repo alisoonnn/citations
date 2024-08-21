@@ -44,7 +44,7 @@ if ('serviceWorker' in navigator) {
   $(document).ready(function() {
     // Function to get a random citation and display it
     function getRandomCitation() {
-        $('#loadingIndicator').show(); 
+        // $('#loadingIndicator').show(); 
       $.ajax({
         url: 'https://sheets.googleapis.com/v4/spreadsheets/1kzXMsf47UPkADCoivqfrWK6fwzMR0pGNGhNWjBscz4E/values/citations?alt=json&key=AIzaSyCIrBFltp0hnK-pXW-Fj0uW8DWnnSysnE8',
         method: 'GET',
@@ -64,9 +64,9 @@ if ('serviceWorker' in navigator) {
           $("p.description").html(description);
           $("img").attr("src", imageUrl);
         },
-        complete: function() {
-            $('#loadingIndicator').hide(); // Hide the loading indicator
-          }
+        // complete: function() {
+        //     $('#loadingIndicator').hide(); // Hide the loading indicator
+        //   }
       });
     }
   
