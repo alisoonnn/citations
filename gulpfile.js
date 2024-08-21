@@ -64,11 +64,11 @@ function minifyJS() {
     .pipe(gulp.dest('dist'));
 }
   
-// Tâche de surveillance des fichiers Sass
-function watchFiles() {
-  gulp.watch('src/scss/style.scss', compileSass);
-  gulp.watch('src/*.html', replaceText);
-}
+// // Tâche de surveillance des fichiers Sass
+// function watchFiles() {
+//   gulp.watch('src/scss/style.scss', compileSass);
+//   gulp.watch('src/*.html', replaceText);
+// }
 
 
 
@@ -81,7 +81,7 @@ exports.default = gulp.series(
     images,
     minifyJS,
     copyWebManifest,
-    watchFiles,
+    // watchFiles,
   );
 
 // Tâche de build
